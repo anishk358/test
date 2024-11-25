@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.myapplication",
+    "sha256_cert_fingerprints":
+    ["D4:18:F1:FB:3E:89:73:86:BE:D4:91:7E:4C:07:D6:F0:C7:97:92:E6:7F:8E:BD:6C:BB:F4:7F:7F:B5:AA:1C:A3"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://anishk358.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.myapplication",
+    "sha256_cert_fingerprints":
+    ["D4:18:F1:FB:3E:89:73:86:BE:D4:91:7E:4C:07:D6:F0:C7:97:92:E6:7F:8E:BD:6C:BB:F4:7F:7F:B5:AA:1C:A3"]
+  }
+}]
